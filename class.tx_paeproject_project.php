@@ -239,7 +239,7 @@ class tx_paeproject_project extends tx_paeproject_dbrecord {
 	  * @return	administrators['local'] : array of administrators explicitely assigned to this project
 	 * @return	administrators['global'] : array of administrators inherited from parents
 	 */
-	function getAdministrators(){
+	function getAdministrators($defaultValues){
 			
 		$administrators=array();
 		$administrators['local']=array();
@@ -268,13 +268,24 @@ class tx_paeproject_project extends tx_paeproject_dbrecord {
 			//processing parent administrators
 			$parent = $this->getParent();
 			if($parent != false){
-				$parentAdmins = $parent->getAdministrators();
+				$parentAdmins = $parent->getAdministrators($defaultValues);
 				$administrators['global'] = array_merge($administrators['global'],$parentAdmins['local']);
 				$administrators['global'] = array_merge($administrators['global'],$parentAdmins['global']);
+			}
+			else{
+				//adding typoscript default administrators to the recursive list of administrators
+				$TS_Admins = explode(',',$defaultValues['administrators']);
+				foreach($TS_Admins as $key=>$uid){
+					$newUser = t3lib_div::makeInstance('tx_paeproject_fe_user');
+					$newUser->load($uid);
+					$administrators['global'][]=$newUser;
+				}
 			}
 		}
 		return $administrators;
 	}
+	
+	
 	
 	function delete(){
 		$sql = "DELETE FROM tx_paeproject_projectelement WHERE uid=".$this->data['uid'];
@@ -310,7 +321,7 @@ class tx_paeproject_project extends tx_paeproject_dbrecord {
 	  * @return	workers['local'] : array of workers explicitely assigned to this project
 	 * @return	workers['global'] : array of workers inherited from parents
 	 */
-	function getWorkers(){
+	function getWorkers($defaultValues){
 			
 		$workers=array();
 		$workers['local']=array();
@@ -341,9 +352,18 @@ class tx_paeproject_project extends tx_paeproject_dbrecord {
 			$parent = $this->getParent();
 			
 			if($parent != false){
-				$parentWorkers = $parent->getWorkers();
+				$parentWorkers = $parent->getWorkers($defaultValues);
 				$workers['global'] = array_merge($workers['global'],$parentWorkers['local']);
 				$workers['global'] = array_merge($workers['global'],$parentWorkers['global']);
+			}
+			else{
+				//adding typoscript default workers to the recursive list of workers
+				$TS_Workers = explode(',',$defaultValues['workers']);
+				foreach($TS_Workers as $key=>$uid){
+					$newUser = t3lib_div::makeInstance('tx_paeproject_fe_user');
+					$newUser->load($uid);
+					$workers['global'][]=$newUser;
+				}
 			}
 		}
 		return $workers;
@@ -356,11 +376,11 @@ class tx_paeproject_project extends tx_paeproject_dbrecord {
 	 * @param	string fe_username : login name of the user queried as supplied by $GLOBALS['TSFE']->fe_user->user['uid']
 	 * @return	boolean 
 	 */
-	function isEditingEnabled($fe_user_uid){
-	
-		$workers = $this->getWorkers();
-		$admins = $this->getAdministrators();
+	function isEditingEnabled($fe_user_uid, $defaultValues){
+		$workers = $this->getWorkers($defaultValues);
+		$admins = $this->getAdministrators($defaultValues);
 		
+				
 		foreach($admins as $key=>$admins_scope){
 			foreach($admins_scope as $key=>$admin){
 				if($admin->data['uid']==$fe_user_uid) return 2;
@@ -371,25 +391,8 @@ class tx_paeproject_project extends tx_paeproject_dbrecord {
 				if($worker->data['uid']==$fe_user_uid) return 1;
 			}
 		}
-		
 		return 0;
 		
-		
-		/*
-		//processing local workers
-		$queryParts = array(
-			'SELECT' => "*",
-			'FROM' => "tx_paeproject_projectelement_workers_mm",
-			'WHERE' => "uid_local=".$this->data['uid']." AND uid_foreign=".$fe_user_uid,
-		);
-		
-		$result = $GLOBALS['TYPO3_DB']->exec_SELECTquery(
-			$queryParts['SELECT'],
-			$queryParts['FROM'],
-			$queryParts['WHERE']
-		) or die("ERROR: tx_paeproject_project->isEditingEnabled(req1): " .$GLOBALS['TYPO3_DB']->sql_error());
-		
-		if($GLOBALS['TYPO3_DB']->sql_num_rows($result)>0) return true;*/
 	}
 		
 		

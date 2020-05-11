@@ -43,7 +43,8 @@
 			{
 				if($GLOBALS['TSFE']->loginUser){
 					//retreive his local rights
-					$this->editingRole = $project->isEditingEnabled($GLOBALS['TSFE']->fe_user->user['uid']);
+					$this->editingRole = $project->isEditingEnabled($GLOBALS['TSFE']->fe_user->user['uid'],$defaultValues);
+					//echo ("this->editingRole=".$this->editingRole);die();
 				}			
 			}
 		}
@@ -54,8 +55,8 @@
 		$dependencies	= $project->getDependencies();
 		$parent			= $project->getParent();
 		$children		= $project->getChildren();
-		$administrators = $project->getAdministrators();
-		$workers 		= $project->getWorkers();
+		$administrators = $project->getAdministrators($defaultValues);
+		$workers 		= $project->getWorkers($defaultValues);
 		$documents 		= explode(",",$project->data['documents']);
 		
 		
@@ -83,7 +84,7 @@
 		{
 			if($GLOBALS['TSFE']->loginUser){
 				//retreive his local rights
-				$this->editingRole = $project->isEditingEnabled($GLOBALS['TSFE']->fe_user->user['uid']);
+				$this->editingRole = $project->isEditingEnabled($GLOBALS['TSFE']->fe_user->user['uid'],$defaultValues);
 			}			
 		}
 			
@@ -103,7 +104,7 @@
 		
 		//show edit project link in view mode for enabled users
 		if( ($action == "view_project") & $this->editingRole >0){
-			if( $project->isEditingEnabled($GLOBALS['TSFE']->fe_user->user['uid']) | ($this->editingRole == 3) ){
+			if( $project->isEditingEnabled($GLOBALS['TSFE']->fe_user->user['uid'],$defaultValues) | ($this->editingRole == 3) ){
 				$urlParameters = array(
 					$this->prefixId.'[action]' => 'edit_project',
 					$this->prefixId.'[uid]' => $project->data['uid'],
@@ -121,7 +122,7 @@
 			}
 		}
 		else if( ($action == "edit_project") & $this->editingRole >0){
-			if( $project->isEditingEnabled($GLOBALS['TSFE']->fe_user->user['uid']) | ($this->editingRole == 3) ){
+			if( $project->isEditingEnabled($GLOBALS['TSFE']->fe_user->user['uid'],$defaultValues) | ($this->editingRole == 3) ){
 				$urlParameters = array(
 					$this->prefixId.'[action]' => 'view_project',
 					$this->prefixId.'[uid]' => $project->data['uid'],
