@@ -9,9 +9,17 @@
 			<label index="pi1_title">PAE Project manager</label>
 			<label index="pi1_plus_wiz_description">PAE Project manager</label>
 		</languageKey>
+		<languageKey index="en" type="array">
+			<label index="pi1_title">PAE Project manager</label>
+			<label index="pi1_plus_wiz_description">PAE Project manager</label>
+		</languageKey>
 		<languageKey index="fr" type="array">
 			<label index="pi1_title">Gestionnaire de projet PAE</label>
 			<label index="pi1_plus_wiz_description">Gestionnaire de projet PAE</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">PAE Projektverwaltung</label>
+			<label index="pi1_plus_wiz_description">PAE Projektverwaltung</label>
 		</languageKey>
 	</data>
 </T3locallang>

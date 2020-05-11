@@ -160,7 +160,7 @@
 			<label index="tx_paeproject_exception.project_elements">Betroffene Projekte</label>
 			<label index="tx_paeproject_exception.affect_estimation">Betroffene Schätzung</label>
 			<label index="tx_paeproject_exception.affect_real">Betrifft tatsächlichen Ablauf</label>
-			<label index="tt_content.list_type_pi1">PAE Project Verwalter</label>
+			<label index="tt_content.list_type_pi1">PAE Projektverwaltung</label>
 			<label index="tx_paeproject_general">Grundeinstellungen</label>
 			
 			<label index="tx_paeproject_projectelement.worked_days.I.0">Montag</label>
