@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "pae_project".
 #
-# Auto generated 08-09-2015 09:35
+# Auto generated 07-09-2015 13:13
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'Project Management with Gantt diagram',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '0.9.4',
+	'version' => '0.9.5',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',

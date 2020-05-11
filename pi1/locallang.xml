@@ -270,5 +270,93 @@
 			<label index="childrenWarning">Ce projet a des projets enfants. Lorsque des projets enfants existent, Les données numériques du projet parent sont ignorées car elle sont aggrégées automatiquement depuis les projets enfants.</label> 
 		
 		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="view">Ansicht</label>
+			<label index="up">Auf</label>
+			<label index="down">Ab</label>
+			<label index="project">Projekt:</label>
+			<label index="estimated_start_date">Geschätzter Beginn:</label>		
+			<label index="estimated_duration">Geschätzte Dauer (Tage):</label>	
+			<label index="estimated_end_date">Geschätztes Ende:</label>			
+			<label index="estimated_cost">Geschätzte Kosten:</label> 				
+			<label index="real_start_date">Tatsächlicher Beginn:</label>				
+			<label index="real_duration">Tatsächliche Dauer (Tage):</label>		
+			<label index="real_end_date">Tatsächliches Ende:</label>	
+			<label index="cost_per_day">Tägliche Kosten:</label>
+			<label index="real_cost">Reale Kosten:</label>			
+			<label index="progress">Projektfortschritt:</label>
+			<label index="parent">Elternprojekt:</label>
+			<label index="children">Teilprojekte:</label>
+			<label index="dependencies">Abhängigkeiten:</label>
+			<label index="administrators">Administratoren:</label>
+			<label index="workers">Mitarbeiter:</label>
+			<label index="documents">Dokumente:</label>
+			<label index="worked_days">Arbeitstage:</label>
+			<label index="day_1">Montag</label>
+			<label index="day_2">Dienstag</label>
+			<label index="day_3">Mittwoch</label>
+			<label index="day_4">Donnerstag</label>
+			<label index="day_5">Freitag</label>
+			<label index="day_6">Samstag</label>
+			<label index="day_7">Sonntag</label>
+			<label index="exception">Unterbrechung:</label>
+			<label index="exceptions">Unterbrechungen:</label>
+			<label index="ex_start_date">Anfangsdatum:</label>
+			<label index="ex_end_date">Enddatum:</label>	
+			<label index="ex_enabled">Aktiviert:</label>
+			<label index="yes">Ja</label>
+			<label index="no">Nein</label>
+			<label index="ex_affected_proj">Betroffene Projekte:</label>
+			<label index="ex_affects_estimation">Betrifft Schätzung:</label>
+			<label index="ex_affects_real">Betrifft realen Ablauf:</label>
+			<label index="edit">Bearbeiten</label>
+			<label index="title">Bezeichnung:</label>
+			<label index="description">Beschreibung :</label>
+			<label index="addDoc">Dokument anfügen:</label>
+			<label index="delDoc">Dokument entfernen</label>
+			<label index="delete">Löschen</label>
+			<label index="add">Hinzufügen</label>
+			<label index="upload">Hochladen</label>
+			<label index="auto">Im Ansichtsmodus automatisch berechnet</label>
+			<label index="submit">OK</label>
+			<label index="cancel">Abbrechen</label>
+			<label index="dd">T:</label>
+			<label index="mm">M:</label>
+			<label index="yyyy">J:</label>
+			<label index="createProject">Neues Projekt</label>
+			<label index="createException">Neue Unterbrechung</label>
+			<label index="listAllProjects">Alle Projekte auflisten</label>
+			<label index="projectSaveSuccess">Projekt erfolgreich gespeichert.</label>
+			<label index="exceptionSaveSuccess">Unterbrechung erfolgreich gespeichert.</label>
+			<label index="documentSaveSuccess">Dokument erfolgreich hochgeladen.</label>
+			<label index="documentDelSuccess">Dokument erfolgreich gelöscht.</label>
+			<label index="void">Projekt nicht definiert.</label>
+			<label index="projectDeleted">Projekt gelöscht.</label>
+			<label index="listAllExceptions">Alle Unterbrechungen auflisten</label>
+			
+			<label index="statistics_from_subprojects">Aus Teilprojekten gewonnene Statistik:</label>
+			<label index="estimated_days_project_duration">Geschätzte Dauer (Tage/Projekt):</label>
+			<label index="estimated_cost_per_day">Geschätzte Kosten pro Tag:</label>
+			<label index="real_days_project_duration">Tatsächliche  Dauer (Tage/Projekt):</label>
+			<label index="real_cost_per_day">Tatsächliche Kosten pro Tag:</label> 
+			
+			<label index="month_1">Januar</label>
+			<label index="month_2">Februar</label> 
+			<label index="month_3">März</label> 
+			<label index="month_4">April</label> 
+			<label index="month_5">Mai</label> 
+			<label index="month_6">Juni</label> 
+			<label index="month_7">Juli</label> 
+			<label index="month_8">August</label> 
+			<label index="month_9">September</label> 
+			<label index="month_10">Oktober</label> 
+			<label index="month_11">November</label> 
+			<label index="month_12">Dezember</label> 
+			<label index="zoom">Zoom:</label> 
+			<label index="drag">Zum Verschieben anklicken und ziehen</label> 
+			<label index="adminWarning">Warnung: Es wurde kein globaler Administrator für dieses Projekt definiert. Sie sollten einen globalen Administrator im Flexform des Plugins anlegen.</label> 
+			<label index="startingPointWarning">warnung: Es wurde keine Datensatzsammlung als Startpunkt für die Extension definiert. Sie müssen ein SysFolder-Objekt als Startpunkt im Flexform des Plugins festlegen, um Projekte anlegen und bearbeiten zu können.</label> 
+			<label index="childrenWarning">Dieses Projekt hat nachgeordnete Teilprojekte. Wenn dies der Fall ist, werden die numerischen Werte des Elternprojekts ignoriert und automatisch aus den Werten der Teilprojekte berechntet.</label> 
+		</languageKey>
 	</data>
 </T3locallang>

@@ -1,5 +1,19 @@
-(add new changes on top of this file)
+09-02-16 Alban Cousinié, Mind2Machine  <extensions@mind2machine.com>
 
-07-12-18 Communauté d'agglomération du pays d'Aubagne et de l'Etoile, Mind2Machine  <ace@mind2machine.com>
+	version 0.9.5
+    
+	* Added german translations to locallang_db.xml and pi1/locallang.xml supplied by Till Conzelmann, ConfidIT (Thanks !!!)
+    * Added wmode=transparent to flashvars by default
+   
+08-10-24 Alban Cousinié, Mind2Machine  <extensions@mind2machine.com>
+    
+    version 0.9.4
+    
+    * fixed workers/ administrators Typoscript values being ignored
+    
 
-	* Initial release
+07-12-18 Communauté d'agglomération du pays d'Aubagne et de l'Etoile, Mind2Machine  <extensions@mind2machine.com>
+
+	version 0.9.0
+    
+    * Initial release

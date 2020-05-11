@@ -270,8 +270,7 @@ class tx_paeproject_pi1 extends tslib_pibase {
 				// <![CDATA[
 				
 				var so = new SWFObject("'.$swfPath .'", "gantt", "670", "300", "8", "#FFFFFF");';
-				
-				
+								
 				$flashCode[] = '				so.addVariable("pluginPageUID", "'.$this->session['pluginPageUID'].'");';
 				$flashCode[] = '				so.addVariable("xmlType", "'.$extConf['typeNum'].'");';
 				$flashCode[] = '				so.addVariable("extPath", "'.t3lib_extMgm::siteRelPath($this->extKey).'");';
@@ -282,7 +281,7 @@ class tx_paeproject_pi1 extends tslib_pibase {
 				$flashCode[] = '				so.addVariable("default_sys_language_uid", "'.$this->session['default_sys_language_uid'].'");';
 				$flashCode[] = '				so.addVariable("L", "'.$this->session['L'].'");';
 				$flashCode[] = '				so.addVariable("prefixId", "'.$this->prefixId.'");';
-				
+				$flashCode[]  = '				so.addParam("wmode", "transparent");';
 				//$htmlCode[] = 'so.addParam("'.$name.'", "'.$value.'");';
 				
 				$flashCode[] = '
