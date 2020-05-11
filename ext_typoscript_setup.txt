@@ -1,0 +1,54 @@
+﻿
+/**
+ * Page object - XML output for Flash Gantt visualisation
+ */
+
+pae_project = PAGE
+pae_project {
+	
+	// Page type ID
+	typeNum = {$extension.pae_project.typeNum}
+		
+	// No cache
+	config.no_cache = 1
+	
+	// Page alternate generation script
+	config.pageGenScript = EXT:pae_project/xml_output.php
+	
+	// Hide admin panel
+	config.admPanel = 0
+}
+
+plugin.tx_paeproject_pi1 {
+	projectDisplayFields = title, description, documents, worked_days, estimated_data, estimated_start_date, estimated_end_date, estimated_duration, estimated_days_project_duration, estimated_cost_per_day, estimated_cost, real_data, real_start_date, real_end_date, real_duration, cost_per_day, real_cost, real_cost_per_day, computed_estimated_data, computed_real_data, real_days_project_duration, progress, parent, children, dependencies, exceptions, administrators, workers   
+	defaultValues{
+		title =  New project
+		description =  type description here
+		worked_days =  1,2,3,4,5
+		estimated_start_date = now
+		estimated_duration =  1
+		estimated_cost = 0
+		estimated_cost_per_day = 0 
+		real_start_date =  now
+		real_duration =  0
+		cost_per_day = 0 
+		progress = 0
+		parent =  
+		dependencies =  
+		administrators =  
+		workers =  
+	}
+	adminButtonsOverride{
+		listAllProjects =
+		createProject = 
+		listAllExceptions = 
+		createException =
+	}
+	editButtonsOverride{
+		view =
+		edit = 
+		delete = 
+	}
+	useExceptions = 1
+	cssStylesheet = 
+}

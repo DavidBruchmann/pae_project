@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'pae_project'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_paeproject_projectelement">Project element</label>
+			<label index="tx_paeproject_projectelement.title">Title</label>
+			<label index="tx_paeproject_projectelement.description">Description</label>
+			<label index="tx_paeproject_projectelement.estimated_start_date">Estimated start date</label>
+			<label index="tx_paeproject_projectelement.estimated_duration">Estimated duration (days)</label>
+			<label index="tx_paeproject_projectelement.estimated_cost">Estimated cost</label>
+			<label index="tx_paeproject_projectelement.real_start_date">Real start date</label>
+			<label index="tx_paeproject_projectelement.real_duration">Real duration (days)</label>
+			<label index="tx_paeproject_projectelement.cost_per_day">Cost per day</label>
+			<label index="tx_paeproject_projectelement.progress.I.0">0 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.1">10 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.2">20 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.3">30 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.4">40 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.5">50 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.6">60 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.7">70 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.8">80 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.9">90 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.10">100 %</label>
+			<label index="tx_paeproject_projectelement.progress">Project progress</label>
+			<label index="tx_paeproject_projectelement.parent">Parent project element</label>
+			<label index="tx_paeproject_projectelement.dependencies">Dependent of</label>
+			<label index="tx_paeproject_projectelement.administrators">Administrators</label>
+			<label index="tx_paeproject_projectelement.workers">Workers</label>
+			<label index="tx_paeproject_projectelement.documents">Associated documents</label>
+			<label index="tx_paeproject_exception">Worked days exception</label>
+			<label index="tx_paeproject_exception.title">Titre</label>
+			<label index="tx_paeproject_exception.disable">Disable</label>
+			<label index="tx_paeproject_exception.start_date">Start date</label>
+			<label index="tx_paeproject_exception.end_date">End date (included)</label>
+			<label index="tx_paeproject_exception.project_elements">Affected project elements</label>
+			<label index="tx_paeproject_exception.affect_estimation">Affects estimation</label>
+			<label index="tx_paeproject_exception.affect_real">Affects real status</label>
+			<label index="tt_content.list_type_pi1">PAE Project manager</label>
+			<label index="tx_paeproject_general">Main settings</label>
+			
+			<label index="tx_paeproject_projectelement.worked_days.I.0">Monday</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.1">Tuesday</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.2">Wednesday</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.3">Thursday</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.4">Friday</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.5">Saturday</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.6">Sunday</label>
+			<label index="tx_paeproject_projectelement.worked_days">Worked days</label>
+			<label index="global_admins">Global administrators</label>
+			<label index="displayOrder">Gantt graph display order</label>
+			<label index="graphFirst">Graph first</label>
+			<label index="projectsFirst">Projects first</label>
+			<label index="listModeDisplay">List mode display</label>
+			<label index="showChildren">Show child projects</label>
+			<label index="rootOnly">Show only root projects</label>
+			<label index="displayEdit">Show Gantt graph policy</label>
+			<label index="yes">Yes</label>
+			<label index="no">No</label>
+			<label index="always">Always</label>
+			<label index="never">Never</label>
+			<label index="listOnly">Only in list mode</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tx_paeproject_projectelement">Elément de projet</label>
+			<label index="tx_paeproject_projectelement.title">Titre</label>
+			<label index="tx_paeproject_projectelement.description">Description</label>
+			<label index="tx_paeproject_projectelement.estimated_start_date">Date de début estimée</label>
+			<label index="tx_paeproject_projectelement.estimated_duration">Durée estimée (jours)</label>
+			<label index="tx_paeproject_projectelement.estimated_cost">Coût estimé</label>
+			<label index="tx_paeproject_projectelement.real_start_date">Date de début réelle</label>
+			<label index="tx_paeproject_projectelement.real_duration">Durée réelle (jours)</label>
+			<label index="tx_paeproject_projectelement.cost_per_day">Coût / jour</label>
+			<label index="tx_paeproject_projectelement.progress.I.0">0 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.1">10 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.2">20 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.3">30 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.4">40 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.5">50 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.6">60 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.7">70 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.8">80 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.9">90 %</label>
+			<label index="tx_paeproject_projectelement.progress.I.10">100 %</label>
+			<label index="tx_paeproject_projectelement.progress">Taux d'avancement du projet</label>
+			<label index="tx_paeproject_projectelement.parent">Elément de projet parent</label>
+			<label index="tx_paeproject_projectelement.dependencies">Dépendant de</label>
+			<label index="tx_paeproject_projectelement.administrators">Administrateurs</label>
+			<label index="tx_paeproject_projectelement.workers">Travailleurs</label>
+			<label index="tx_paeproject_projectelement.documents">Documents associés</label>
+			<label index="tx_paeproject_exception">Exception jours travaillés</label>
+			<label index="tx_paeproject_exception.title">Intitulé</label>
+			<label index="tx_paeproject_exception.disable">Désactiver</label>
+			<label index="tx_paeproject_exception.start_date">Date début</label>
+			<label index="tx_paeproject_exception.end_date">Date fin (incluse)</label>
+			<label index="tx_paeproject_exception.project_elements">Eléments de projets affectés</label>
+			<label index="tx_paeproject_exception.affect_estimation">Affecte l'estimation</label>
+			<label index="tx_paeproject_exception.affect_real">Affecte le statut réel</label>
+			<label index="tt_content.list_type_pi1">Gestionnaire de projet PAE</label>
+			<label index="tx_paeproject_general">Paramètres généraux</label>
+			
+			<label index="tx_paeproject_projectelement.worked_days.I.0">Lundi</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.1">Mardi</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.2">Mercredi</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.3">Jeudi</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.4">Vendredi</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.5">Samedi</label>
+			<label index="tx_paeproject_projectelement.worked_days.I.6">Dimanche</label>
+			<label index="tx_paeproject_projectelement.worked_days">Jours travaillés</label>
+			<label index="global_admins">Administrateurs globaux</label>
+			<label index="displayOrder">Affichage du graphique de Gantt</label>
+			<label index="graphFirst">Graphique en premier</label>
+			<label index="projectsFirst">Projets en premier</label>
+			<label index="listModeDisplay">Affichage en liste</label>
+			<label index="showChildren">Afficher les projets enfants</label>
+			<label index="rootOnly">Afficher seulement les projets racine</label>
+			<label index="displayEdit">Affichage du graphe de Gantt</label>
+			<label index="yes">Oui</label>
+			<label index="no">Non</label>
+			<label index="always">Toujours</label>
+			<label index="never">Jamais</label>
+			<label index="listOnly">Seulement en mode liste</label>
+		</languageKey>
+	</data>
+</T3locallang>

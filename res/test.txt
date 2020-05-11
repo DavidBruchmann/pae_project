@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<pae_project>
+	<global>
+		<rangeStartDate day="01" month="12" year="2007" />
+		<rangeEndDate day="15" month="06" year="2008" />
+		<rangeLength daysCount="197" />
+	</global>
+	<project>
+		<link>index.php?id=739&tx_paeproject_pi1[action]=view_project&tx_paeproject_pi1[uid]=38</link>
+
+		<uid>38</uid>
+		<pid>753</pid>
+		<title>Documentation extension</title>
+		<computedEstimatedStartDate day="01" month="06" year="2008" />
+		<computedEstimatedEndDate day="15" month="06" year="2008" />
+		<estimatedMapFusioned>
+			<year num="2008">
+
+				<month num="6" numDays="30">
+					<day num="1" absNum="184">1</day>
+					<day num="2" absNum="185">0</day>
+					<day num="3" absNum="186">0</day>
+					<day num="4" absNum="187">0</day>
+					<day num="5" absNum="188">0</day>
+
+					<day num="6" absNum="189">0</day>
+					<day num="7" absNum="190">0</day>
+					<day num="8" absNum="191">1</day>
+					<day num="9" absNum="192">0</day>
+					<day num="10" absNum="193">0</day>
+					<day num="11" absNum="194">0</day>
+
+					<day num="12" absNum="195">0</day>
+					<day num="13" absNum="196">0</day>
+					<day num="14" absNum="197">0</day>
+					<day num="15" absNum="198">1</day>
+				</month>
+			</year>
+		</estimatedMapFusioned>
+
+		<computedRealStartDate day="03" month="06" year="2008" />
+		<computedRealEndDate day="15" month="06" year="2008" />
+		<realMapFusioned>
+			<year num="2008">
+				<month num="6" numDays="30">
+					<day num="3" absNum="186">0</day>
+					<day num="4" absNum="187">0</day>
+					<day num="5" absNum="188">0</day>
+
+					<day num="6" absNum="189">0</day>
+					<day num="7" absNum="190">0</day>
+					<day num="8" absNum="191">1</day>
+					<day num="9" absNum="192">0</day>
+					<day num="10" absNum="193">0</day>
+					<day num="11" absNum="194">0</day>
+
+					<day num="12" absNum="195">0</day>
+					<day num="13" absNum="196">0</day>
+					<day num="14" absNum="197">0</day>
+					<day num="15" absNum="198">1</day>
+				</month>
+			</year>
+		</realMapFusioned>
+
+	</project>
+	<project>
+		<link>index.php?id=739&tx_paeproject_pi1[action]=view_project&tx_paeproject_pi1[uid]=1</link>
+		<uid>1</uid>
+		<pid>753</pid>
+		<title>Extension pae_project</title>
+
+		<computedEstimatedStartDate day="01" month="12" year="2007" />
+		<computedEstimatedEndDate day="22" month="04" year="2008" />
+		<estimatedMapFusioned>
+			<year num="2007">
+				<month num="12" numDays="31">
+					<day num="1" absNum="1">0</day>
+					<day num="2" absNum="2">0</day>
+					<day num="3" absNum="3">1</day>
+
+					<day num="4" absNum="4">1</day>
+					<day num="5" absNum="5">0</day>
+					<day num="6" absNum="6">0</day>
+					<day num="7" absNum="7">0</day>
+					<day num="8" absNum="8">0</day>
+					<day num="9" absNum="9">0</day>
+
+					<day num="10" absNum="10">0</day>
+					<day num="11" absNum="11">0</day>
+					<day num="12" absNum="12">0</day>
+					<day num="13" absNum="13">0</day>
+					<day num="14" absNum="14">0</day>
+					<day num="15" absNum="15">0</day>
+
+					<day num="16" absNum="16">0</day>
+					<day num="17" absNum="17">0</day>
+					<day num="18" absNum="18">0</day>
+					<day num="19" absNum="19">0</day>
+					<day num="20" absNum="20">1</day>
+					<day num="21" absNum="21">1</day>
+
+					<day num="22" absNum="22">0</day>
+					<day num="23" absNum="23">0</day>
+					<day num="24" absNum="24">1</day>
+					<day num="25" absNum="25">1</day>
+					<day num="26" absNum="26">1</day>
+					<day num="27" absNum="27">1</day>
+
+					<day num="28" absNum="28">1</day>
+					<day num="29" absNum="29">0</day>
+					<day num="30" absNum="30">0</day>
+					<day num="31" absNum="31">1</day>
+				</month>
+			</year>
+			<year num="2008">
+
+				<month num="1" numDays="31">
+					<day num="1" absNum="32">0</day>
+					<day num="2" absNum="33">0</day>
+					<day num="3" absNum="34">1</day>
+					<day num="4" absNum="35">1</day>
+					<day num="5" absNum="36">0</day>
+
+					<day num="6" absNum="37">0</day>
+					<day num="7" absNum="38">1</day>
+					<day num="8" absNum="39">1</day>
+					<day num="9" absNum="40">0</day>
+					<day num="10" absNum="41">0</day>
+					<day num="11" absNum="42">0</day>
+
+					<day num="12" absNum="43">0</day>
+					<day num="13" absNum="44">0</day>
+					<day num="14" absNum="45">0</day>
+					<day num="15" absNum="46">0</day>
+					<day num="16" absNum="47">0</day>
+					<day num="17" absNum="48">0</day>
+
+					<day num="18" absNum="49">0</day>
+					<day num="19" absNum="50">0</day>
+					<day num="20" absNum="51">0</day>
+					<day num="21" absNum="52">0</day>
+					<day num="22" absNum="53">0</day>
+					<day num="23" absNum="54">0</day>
+
+					<day num="24" absNum="55">0</day>
+					<day num="25" absNum="56">0</day>
+					<day num="26" absNum="57">0</day>
+					<day num="27" absNum="58">0</day>
+					<day num="28" absNum="59">0</day>
+					<day num="29" absNum="60">0</day>
+
+					<day num="30" absNum="61">0</day>
+					<day num="31" absNum="62">0</day>
+				</month>
+				<month num="2" numDays="29">
+					<day num="1" absNum="63">0</day>
+					<day num="2" absNum="64">0</day>
+					<day num="3" absNum="65">0</day>
+
+					<day num="4" absNum="66">0</day>
+					<day num="5" absNum="67">0</day>
+					<day num="6" absNum="68">0</day>
+					<day num="7" absNum="69">0</day>
+					<day num="8" absNum="70">0</day>
+					<day num="9" absNum="71">0</day>
+
+					<day num="10" absNum="72">0</day>
+					<day num="11" absNum="73">0</day>
+					<day num="12" absNum="74">0</day>
+					<day num="13" absNum="75">0</day>
+					<day num="14" absNum="76">0</day>
+					<day num="15" absNum="77">0</day>
+
+					<day num="16" absNum="78">0</day>
+					<day num="17" absNum="79">0</day>
+					<day num="18" absNum="80">0</day>
+					<day num="19" absNum="81">0</day>
+					<day num="20" absNum="82">0</day>
+					<day num="21" absNum="83">0</day>
+
+					<day num="22" absNum="84">0</day>
+					<day num="23" absNum="85">0</day>
+					<day num="24" absNum="86">0</day>
+					<day num="25" absNum="87">0</day>
+					<day num="26" absNum="88">0</day>
+					<day num="27" absNum="89">0</day>
+
+					<day num="28" absNum="90">0</day>
+					<day num="29" absNum="91">0</day>
+				</month>
+				<month num="3" numDays="31">
+					<day num="1" absNum="92">0</day>
+					<day num="2" absNum="93">0</day>
+					<day num="3" absNum="94">0</day>
+
+					<day num="4" absNum="95">0</day>
+					<day num="5" absNum="96">0</day>
+					<day num="6" absNum="97">0</day>
+					<day num="7" absNum="98">0</day>
+					<day num="8" absNum="99">0</day>
+					<day num="9" absNum="100">0</day>
+
+					<day num="10" absNum="101">0</day>
+					<day num="11" absNum="102">0</day>
+					<day num="12" absNum="103">0</day>
+					<day num="13" absNum="104">0</day>
+					<day num="14" absNum="105">0</day>
+					<day num="15" absNum="106">0</day>
+
+					<day num="16" absNum="107">0</day>
+					<day num="17" absNum="108">0</day>
+					<day num="18" absNum="109">0</day>
+					<day num="19" absNum="110">0</day>
+					<day num="20" absNum="111">0</day>
+					<day num="21" absNum="112">0</day>
+
+					<day num="22" absNum="113">0</day>
+					<day num="23" absNum="114">0</day>
+					<day num="24" absNum="115">0</day>
+					<day num="25" absNum="116">0</day>
+					<day num="26" absNum="117">0</day>
+					<day num="27" absNum="118">0</day>
+
+					<day num="28" absNum="119">0</day>
+					<day num="29" absNum="120">0</day>
+					<day num="30" absNum="121">0</day>
+					<day num="31" absNum="122">0</day>
+				</month>
+				<month num="4" numDays="30">
+					<day num="1" absNum="123">0</day>
+
+					<day num="2" absNum="124">1</day>
+					<day num="3" absNum="125">1</day>
+					<day num="4" absNum="126">1</day>
+					<day num="5" absNum="127">0</day>
+					<day num="6" absNum="128">0</day>
+					<day num="7" absNum="129">1</day>
+
+					<day num="8" absNum="130">1</day>
+					<day num="9" absNum="131">1</day>
+					<day num="10" absNum="132">1</day>
+					<day num="11" absNum="133">1</day>
+					<day num="12" absNum="134">0</day>
+					<day num="13" absNum="135">0</day>
+
+					<day num="14" absNum="136">1</day>
+					<day num="15" absNum="137">1</day>
+					<day num="16" absNum="138">1</day>
+					<day num="17" absNum="139">1</day>
+					<day num="18" absNum="140">1</day>
+					<day num="19" absNum="141">0</day>
+
+					<day num="20" absNum="142">0</day>
+					<day num="21" absNum="143">1</day>
+					<day num="22" absNum="144">1</day>
+				</month>
+			</year>
+		</estimatedMapFusioned>
+		<computedRealStartDate day="15" month="12" year="2007" />
+
+		<computedRealEndDate day="05" month="05" year="2008" />
+		<realMapFusioned>
+			<year num="2007">
+				<month num="12" numDays="31">
+					<day num="15" absNum="15">0</day>
+					<day num="16" absNum="16">0</day>
+					<day num="17" absNum="17">1</day>
+
+					<day num="18" absNum="18">1</day>
+					<day num="19" absNum="19">1</day>
+					<day num="20" absNum="20">0</day>
+					<day num="21" absNum="21">1</day>
+					<day num="22" absNum="22">0</day>
+					<day num="23" absNum="23">0</day>
+
+					<day num="24" absNum="24">1</day>
+					<day num="25" absNum="25">1</day>
+					<day num="26" absNum="26">1</day>
+					<day num="27" absNum="27">1</day>
+					<day num="28" absNum="28">1</day>
+					<day num="29" absNum="29">0</day>
+
+					<day num="30" absNum="30">0</day>
+					<day num="31" absNum="31">1</day>
+				</month>
+			</year>
+			<year num="2008">
+				<month num="1" numDays="31">
+					<day num="1" absNum="32">0</day>
+
+					<day num="2" absNum="33">0</day>
+					<day num="3" absNum="34">1</day>
+					<day num="4" absNum="35">0</day>
+					<day num="5" absNum="36">0</day>
+					<day num="6" absNum="37">0</day>
+					<day num="7" absNum="38">0</day>
+
+					<day num="8" absNum="39">0</day>
+					<day num="9" absNum="40">0</day>
+					<day num="10" absNum="41">0</day>
+					<day num="11" absNum="42">0</day>
+					<day num="12" absNum="43">0</day>
+					<day num="13" absNum="44">0</day>
+
+					<day num="14" absNum="45">0</day>
+					<day num="15" absNum="46">0</day>
+					<day num="16" absNum="47">0</day>
+					<day num="17" absNum="48">0</day>
+					<day num="18" absNum="49">0</day>
+					<day num="19" absNum="50">0</day>
+
+					<day num="20" absNum="51">0</day>
+					<day num="21" absNum="52">0</day>
+					<day num="22" absNum="53">0</day>
+					<day num="23" absNum="54">0</day>
+					<day num="24" absNum="55">0</day>
+					<day num="25" absNum="56">0</day>
+
+					<day num="26" absNum="57">0</day>
+					<day num="27" absNum="58">0</day>
+					<day num="28" absNum="59">0</day>
+					<day num="29" absNum="60">0</day>
+					<day num="30" absNum="61">0</day>
+					<day num="31" absNum="62">0</day>
+
+				</month>
+				<month num="2" numDays="29">
+					<day num="1" absNum="63">0</day>
+					<day num="2" absNum="64">0</day>
+					<day num="3" absNum="65">0</day>
+					<day num="4" absNum="66">0</day>
+					<day num="5" absNum="67">0</day>
+
+					<day num="6" absNum="68">0</day>
+					<day num="7" absNum="69">0</day>
+					<day num="8" absNum="70">0</day>
+					<day num="9" absNum="71">0</day>
+					<day num="10" absNum="72">0</day>
+					<day num="11" absNum="73">0</day>
+
+					<day num="12" absNum="74">0</day>
+					<day num="13" absNum="75">0</day>
+					<day num="14" absNum="76">0</day>
+					<day num="15" absNum="77">0</day>
+					<day num="16" absNum="78">0</day>
+					<day num="17" absNum="79">0</day>
+
+					<day num="18" absNum="80">0</day>
+					<day num="19" absNum="81">0</day>
+					<day num="20" absNum="82">0</day>
+					<day num="21" absNum="83">0</day>
+					<day num="22" absNum="84">0</day>
+					<day num="23" absNum="85">0</day>
+
+					<day num="24" absNum="86">0</day>
+					<day num="25" absNum="87">0</day>
+					<day num="26" absNum="88">0</day>
+					<day num="27" absNum="89">0</day>
+					<day num="28" absNum="90">0</day>
+					<day num="29" absNum="91">0</day>
+
+				</month>
+				<month num="3" numDays="31">
+					<day num="1" absNum="92">0</day>
+					<day num="2" absNum="93">0</day>
+					<day num="3" absNum="94">0</day>
+					<day num="4" absNum="95">0</day>
+					<day num="5" absNum="96">0</day>
+
+					<day num="6" absNum="97">0</day>
+					<day num="7" absNum="98">0</day>
+					<day num="8" absNum="99">0</day>
+					<day num="9" absNum="100">0</day>
+					<day num="10" absNum="101">0</day>
+					<day num="11" absNum="102">0</day>
+
+					<day num="12" absNum="103">0</day>
+					<day num="13" absNum="104">0</day>
+					<day num="14" absNum="105">0</day>
+					<day num="15" absNum="106">0</day>
+					<day num="16" absNum="107">0</day>
+					<day num="17" absNum="108">0</day>
+
+					<day num="18" absNum="109">0</day>
+					<day num="19" absNum="110">0</day>
+					<day num="20" absNum="111">0</day>
+					<day num="21" absNum="112">0</day>
+					<day num="22" absNum="113">0</day>
+					<day num="23" absNum="114">0</day>
+
+					<day num="24" absNum="115">0</day>
+					<day num="25" absNum="116">0</day>
+					<day num="26" absNum="117">0</day>
+					<day num="27" absNum="118">0</day>
+					<day num="28" absNum="119">0</day>
+					<day num="29" absNum="120">0</day>
+
+					<day num="30" absNum="121">0</day>
+					<day num="31" absNum="122">0</day>
+				</month>
+				<month num="4" numDays="30">
+					<day num="1" absNum="123">0</day>
+					<day num="2" absNum="124">0</day>
+					<day num="3" absNum="125">0</day>
+
+					<day num="4" absNum="126">0</day>
+					<day num="5" absNum="127">0</day>
+					<day num="6" absNum="128">0</day>
+					<day num="7" absNum="129">0</day>
+					<day num="8" absNum="130">0</day>
+					<day num="9" absNum="131">0</day>
+
+					<day num="10" absNum="132">0</day>
+					<day num="11" absNum="133">0</day>
+					<day num="12" absNum="134">0</day>
+					<day num="13" absNum="135">0</day>
+					<day num="14" absNum="136">0</day>
+					<day num="15" absNum="137">0</day>
+
+					<day num="16" absNum="138">0</day>
+					<day num="17" absNum="139">0</day>
+					<day num="18" absNum="140">0</day>
+					<day num="19" absNum="141">0</day>
+					<day num="20" absNum="142">0</day>
+					<day num="21" absNum="143">0</day>
+
+					<day num="22" absNum="144">0</day>
+					<day num="23" absNum="145">0</day>
+					<day num="24" absNum="146">0</day>
+					<day num="25" absNum="147">0</day>
+					<day num="26" absNum="148">0</day>
+					<day num="27" absNum="149">0</day>
+
+					<day num="28" absNum="150">0</day>
+					<day num="29" absNum="151">0</day>
+					<day num="30" absNum="152">0</day>
+				</month>
+				<month num="5" numDays="31">
+					<day num="1" absNum="153">0</day>
+					<day num="2" absNum="154">1</day>
+
+					<day num="3" absNum="155">0</day>
+					<day num="4" absNum="156">0</day>
+					<day num="5" absNum="157">1</day>
+				</month>
+			</year>
+		</realMapFusioned>
+		<project>
+
+			<link>index.php?id=739&tx_paeproject_pi1[action]=view_project&tx_paeproject_pi1[uid]=4</link>
+			<uid>4</uid>
+			<pid>753</pid>
+			<title>Développement partie flash</title>
+			<computedEstimatedStartDate day="02" month="04" year="2008" />
+			<computedEstimatedEndDate day="22" month="04" year="2008" />
+
+			<estimatedMapFusioned>
+				<year num="2008">
+					<month num="4" numDays="30">
+						<day num="2" absNum="124">1</day>
+						<day num="3" absNum="125">1</day>
+						<day num="4" absNum="126">1</day>
+						<day num="5" absNum="127">0</day>
+
+						<day num="6" absNum="128">0</day>
+						<day num="7" absNum="129">1</day>
+						<day num="8" absNum="130">1</day>
+						<day num="9" absNum="131">1</day>
+						<day num="10" absNum="132">1</day>
+						<day num="11" absNum="133">1</day>
+
+						<day num="12" absNum="134">0</day>
+						<day num="13" absNum="135">0</day>
+						<day num="14" absNum="136">1</day>
+						<day num="15" absNum="137">1</day>
+						<day num="16" absNum="138">1</day>
+						<day num="17" absNum="139">1</day>
+
+						<day num="18" absNum="140">1</day>
+						<day num="19" absNum="141">0</day>
+						<day num="20" absNum="142">0</day>
+						<day num="21" absNum="143">1</day>
+						<day num="22" absNum="144">1</day>
+					</month>
+
+				</year>
+			</estimatedMapFusioned>
+			<computedRealStartDate day="02" month="05" year="2008" />
+			<computedRealEndDate day="05" month="05" year="2008" />
+			<realMapFusioned>
+				<year num="2008">
+					<month num="5" numDays="31">
+						<day num="2" absNum="154">1</day>
+
+						<day num="3" absNum="155">0</day>
+						<day num="4" absNum="156">0</day>
+						<day num="5" absNum="157">1</day>
+					</month>
+				</year>
+			</realMapFusioned>
+		</project>
+
+		<project>
+			<link>index.php?id=739&tx_paeproject_pi1[action]=view_project&tx_paeproject_pi1[uid]=3</link>
+			<uid>3</uid>
+			<pid>753</pid>
+			<title>Développement partie PHP</title>
+			<computedEstimatedStartDate day="20" month="12" year="2007" />
+
+			<computedEstimatedEndDate day="08" month="01" year="2008" />
+			<estimatedMapFusioned>
+				<year num="2007">
+					<month num="12" numDays="31">
+						<day num="20" absNum="20">1</day>
+						<day num="21" absNum="21">1</day>
+						<day num="22" absNum="22">0</day>
+
+						<day num="23" absNum="23">0</day>
+						<day num="24" absNum="24">1</day>
+						<day num="25" absNum="25">1</day>
+						<day num="26" absNum="26">1</day>
+						<day num="27" absNum="27">1</day>
+						<day num="28" absNum="28">1</day>
+
+						<day num="29" absNum="29">0</day>
+						<day num="30" absNum="30">0</day>
+						<day num="31" absNum="31">1</day>
+					</month>
+				</year>
+				<year num="2008">
+					<month num="1" numDays="31">
+
+						<day num="1" absNum="32">0</day>
+						<day num="2" absNum="33">0</day>
+						<day num="3" absNum="34">1</day>
+						<day num="4" absNum="35">1</day>
+						<day num="5" absNum="36">0</day>
+						<day num="6" absNum="37">0</day>
+
+						<day num="7" absNum="38">1</day>
+						<day num="8" absNum="39">1</day>
+					</month>
+				</year>
+			</estimatedMapFusioned>
+			<computedRealStartDate day="21" month="12" year="2007" />
+			<computedRealEndDate day="03" month="01" year="2008" />
+			<realMapFusioned>
+
+				<year num="2007">
+					<month num="12" numDays="31">
+						<day num="21" absNum="21">1</day>
+						<day num="22" absNum="22">0</day>
+						<day num="23" absNum="23">0</day>
+						<day num="24" absNum="24">1</day>
+						<day num="25" absNum="25">1</day>
+
+						<day num="26" absNum="26">1</day>
+						<day num="27" absNum="27">1</day>
+						<day num="28" absNum="28">1</day>
+						<day num="29" absNum="29">0</day>
+						<day num="30" absNum="30">0</day>
+						<day num="31" absNum="31">1</day>
+
+					</month>
+				</year>
+				<year num="2008">
+					<month num="1" numDays="31">
+						<day num="1" absNum="32">0</day>
+						<day num="2" absNum="33">0</day>
+						<day num="3" absNum="34">1</day>
+
+					</month>
+				</year>
+			</realMapFusioned>
+		</project>
+		<project>
+			<link>index.php?id=739&tx_paeproject_pi1[action]=view_project&tx_paeproject_pi1[uid]=2</link>
+			<uid>2</uid>
+
+			<pid>753</pid>
+			<title>Préparation de l'extension</title>
+			<computedEstimatedStartDate day="01" month="12" year="2007" />
+			<computedEstimatedEndDate day="04" month="12" year="2007" />
+			<estimatedMapFusioned>
+				<year num="2007">
+					<month num="12" numDays="31">
+						<day num="1" absNum="1">0</day>
+
+						<day num="2" absNum="2">0</day>
+						<day num="3" absNum="3">1</day>
+						<day num="4" absNum="4">1</day>
+					</month>
+				</year>
+			</estimatedMapFusioned>
+			<computedRealStartDate day="15" month="12" year="2007" />
+
+			<computedRealEndDate day="19" month="12" year="2007" />
+			<realMapFusioned>
+				<year num="2007">
+					<month num="12" numDays="31">
+						<day num="15" absNum="15">0</day>
+						<day num="16" absNum="16">0</day>
+						<day num="17" absNum="17">1</day>
+
+						<day num="18" absNum="18">1</day>
+						<day num="19" absNum="19">1</day>
+					</month>
+				</year>
+			</realMapFusioned>
+		</project>
+	</project>
+</pae_project>

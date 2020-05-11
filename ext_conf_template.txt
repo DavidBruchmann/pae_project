@@ -1,0 +1,6 @@
+# cat=basic//0; type=int+; label=TypeNum: the type ID for the XML output used by flash
+typeNum = 9003
+
+# cat=basic//1; type=string; label=date format (as specified by PHP documentation)
+dateFormat = d/m/Y
+
