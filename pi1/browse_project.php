@@ -1049,7 +1049,7 @@
 		}
 			
 		$htmlCode[] = '</form>';					
-		$htmlCode[] = '</div>';
+		$htmlCode[] = '</div></div>';
 			
 		/*	
 		echo "this->session['globalAction']=".$this->session['globalAction']."<br>";
