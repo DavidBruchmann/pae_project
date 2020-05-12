@@ -1,68 +1,58 @@
-#
-# Table structure for table 'tx_paeproject_projectelement_parent_mm'
-# 
-#
+--
+-- Table structure for table 'tx_paeproject_projectelement_parent_mm'
+--
 CREATE TABLE tx_paeproject_projectelement_parent_mm (
   uid_local int(11) DEFAULT '0' NOT NULL,
   uid_foreign int(11) DEFAULT '0' NOT NULL,
   tablenames varchar(30) DEFAULT '' NOT NULL,
   sorting int(11) DEFAULT '0' NOT NULL,
+
   KEY uid_local (uid_local),
   KEY uid_foreign (uid_foreign)
 );
 
-
-
-
-#
-# Table structure for table 'tx_paeproject_projectelement_dependencies_mm'
-# 
-#
+--
+-- Table structure for table 'tx_paeproject_projectelement_dependencies_mm'
+-- 
 CREATE TABLE tx_paeproject_projectelement_dependencies_mm (
   uid_local int(11) DEFAULT '0' NOT NULL,
   uid_foreign int(11) DEFAULT '0' NOT NULL,
   tablenames varchar(30) DEFAULT '' NOT NULL,
   sorting int(11) DEFAULT '0' NOT NULL,
+
   KEY uid_local (uid_local),
   KEY uid_foreign (uid_foreign)
 );
 
-
-
-
-#
-# Table structure for table 'tx_paeproject_projectelement_administrators_mm'
-# 
-#
+--
+-- Table structure for table 'tx_paeproject_projectelement_administrators_mm'
+-- 
 CREATE TABLE tx_paeproject_projectelement_administrators_mm (
   uid_local int(11) DEFAULT '0' NOT NULL,
   uid_foreign int(11) DEFAULT '0' NOT NULL,
   tablenames varchar(30) DEFAULT '' NOT NULL,
   sorting int(11) DEFAULT '0' NOT NULL,
+
   KEY uid_local (uid_local),
   KEY uid_foreign (uid_foreign)
 );
 
-
-
-#
-# Table structure for table 'tx_paeproject_projectelement_workers_mm'
-# 
-#
+--
+-- Table structure for table 'tx_paeproject_projectelement_workers_mm'
+-- 
 CREATE TABLE tx_paeproject_projectelement_workers_mm (
   uid_local int(11) DEFAULT '0' NOT NULL,
   uid_foreign int(11) DEFAULT '0' NOT NULL,
   tablenames varchar(30) DEFAULT '' NOT NULL,
   sorting int(11) DEFAULT '0' NOT NULL,
+
   KEY uid_local (uid_local),
   KEY uid_foreign (uid_foreign)
 );
 
-
-
-#
-# Table structure for table 'tx_paeproject_projectelement'
-#
+--
+-- Table structure for table 'tx_paeproject_projectelement'
+--
 CREATE TABLE tx_paeproject_projectelement (
 	uid int(11) NOT NULL auto_increment,
 	pid int(11) DEFAULT '0' NOT NULL,
@@ -96,34 +86,28 @@ CREATE TABLE tx_paeproject_projectelement (
 	administrators int(11) DEFAULT '0' NOT NULL,
     workers int(11) DEFAULT '0' NOT NULL,
 	documents blob NOT NULL,
-	
-	
+
 	PRIMARY KEY (uid),
 	KEY parent (pid),
 	KEY t3ver_oid (t3ver_oid,t3ver_wsid)
 );
 
-
-
-
-#
-# Table structure for table 'tx_paeproject_exception_project_elements_mm'
-# 
-#
+--
+-- Table structure for table 'tx_paeproject_exception_project_elements_mm'
+-- 
 CREATE TABLE tx_paeproject_exception_project_elements_mm (
   uid_local int(11) DEFAULT '0' NOT NULL,
   uid_foreign int(11) DEFAULT '0' NOT NULL,
   tablenames varchar(30) DEFAULT '' NOT NULL,
   sorting int(11) DEFAULT '0' NOT NULL,
+
   KEY uid_local (uid_local),
   KEY uid_foreign (uid_foreign)
 );
 
-
-
-#
-# Table structure for table 'tx_paeproject_exception'
-#
+--
+-- Table structure for table 'tx_paeproject_exception'
+--
 CREATE TABLE tx_paeproject_exception (
 	uid int(11) NOT NULL auto_increment,
 	pid int(11) DEFAULT '0' NOT NULL,

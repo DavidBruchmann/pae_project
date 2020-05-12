@@ -1,5 +1,4 @@
-﻿
-/**
+﻿/**
  * Page object - XML output for Flash Gantt visualisation
  */
 

@@ -29,11 +29,9 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearcacheonload' => 1,
 	'lockType' => '',
-	'author' => 'CommunautÃÂ© d\'agglomÃÂ©ration du pays d\'Aubagne et de l\'Etoile, Mind2Machine',
+	'author' => 'Communauté d\'agglomération du pays d\'Aubagne et de l\'Etoile, Mind2Machine',
 	'author_email' => 'm2m@mind2machine.com',
 	'author_company' => '',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
 );
-
-?>

@@ -1056,6 +1056,3 @@
 		echo "this->session['globalAction']=".$this->session['globalAction']."<br>";
 		echo "action=".$action."<br>";	
 		*/
-			
-		
-?>

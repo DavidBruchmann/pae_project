@@ -1,4 +1,5 @@
 ﻿<?php
+
 /***************************************************************
  * Copyright notice
  *
@@ -29,22 +30,21 @@
  */
 	
 //include class tslib_cObj 
-require_once(PATH_tslib.'class.tslib_content.php');
-require_once(t3lib_extMgm::extPath('pae_project','pi1/class.tx_paeproject_pi1.php'));
-require_once(t3lib_extMgm::extPath('pae_project','class.tx_paeproject_project.php'));
-require_once(t3lib_extMgm::extPath('pae_project','class.tx_paeproject_exception.php'));
-require_once(t3lib_extMgm::extPath('pae_project','date_tools.php'));
-require_once(t3lib_extMgm::extPath('pae_project','form_tools.php'));
-require_once(t3lib_extMgm::extPath('pae_project','project_tools.php'));
+require_once(PATH_tslib . 'class.tslib_content.php');
+require_once(t3lib_extMgm::extPath('pae_project', 'pi1/class.tx_paeproject_pi1.php'));
+require_once(t3lib_extMgm::extPath('pae_project', 'class.tx_paeproject_project.php'));
+require_once(t3lib_extMgm::extPath('pae_project', 'class.tx_paeproject_exception.php'));
+require_once(t3lib_extMgm::extPath('pae_project', 'date_tools.php'));
+require_once(t3lib_extMgm::extPath('pae_project', 'form_tools.php'));
+require_once(t3lib_extMgm::extPath('pae_project', 'project_tools.php'));
 
-class tx_paeproject_xmloutput  {
-
-	
+class tx_paeproject_xmloutput
+{
 	//constructor;
-	function tx_paeproject_xmloutput()	{
+	function tx_paeproject_xmloutput()
+    {
 		$this->cObj = t3lib_div::makeInstance('tslib_cObj');
 	}
-	
 	
 	/**
 	 * Creates XML output for Flash.
@@ -53,41 +53,34 @@ class tx_paeproject_xmloutput  {
 	 * 
 	 * @return		The XML content.
 	 */
-	function writeXML() {
+	function writeXML()
+    {
 		//initializing session
 		//print_r($GLOBALS["TSFE"]->fe_user);
-		$session = $GLOBALS["TSFE"]->fe_user->getKey('ses','tx_paeproject');
+		$session = $GLOBALS["TSFE"]->fe_user->getKey('ses', 'tx_paeproject');
 		
 		//overwrite session data since it has proven sometimes not to be correct
 		/*$session->prefixId = $_REQUEST("prefixId");
 		$session->pluginPageUID = $_REQUEST("id");
 		$session->selectedPids = $_REQUEST("selectedPids");*/
 		
-		
-		
 		// XML Storage
 		$xml =  array();
 		
-		$xml[] = '<?xml version="1.0" encoding="'.$GLOBALS['TSFE']->tmpl->setup['config.']['metaCharset'].'" standalone="yes" ?>';
-		
+		$xml[] = '<?xml version="1.0" encoding="' . $GLOBALS['TSFE']->tmpl->setup['config.']['metaCharset'] . '" standalone="yes" ?>';
 		$xml[] = '<pae_project>';
-		
-		$xml = array_merge($xml,listAllProjectsXML(NULL,$session));
-				
+		$xml = array_merge($xml, listAllProjectsXML(NULL, $session));
 		$xml[] = '</pae_project>';
-		
 					
 		// Return XML code
-		return implode(chr(10),$xml);
+		return implode(chr(10), $xml);
 	}
-		
 }	
-	if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/pae_project/xml_output.php'])	{
-		include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/pae_project/xml_output.php']);
-	}
+
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/pae_project/xml_output.php'])	{
+    include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/pae_project/xml_output.php']);
+}
 	
-	$xmloutput = new tx_paeproject_xmloutput();
-	echo($xmloutput->writeXML());
-	
-	exit();
-?>
+$xmloutput = new tx_paeproject_xmloutput();
+echo($xmloutput->writeXML());
+exit();

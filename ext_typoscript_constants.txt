@@ -1,10 +1,4 @@
-
-
 plugin.pae_project {
-30 = TEXT
-30.value = hello
+    30 = TEXT
+    30.value = hello
 }
-
-
-
-

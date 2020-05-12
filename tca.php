@@ -1,5 +1,6 @@
 <?php
-if (!defined ('TYPO3_MODE')) 	die ('Access denied.');
+
+defined ('TYPO3_MODE') || die ('Access denied.');
 
 $TCA["tx_paeproject_projectelement"] = array (
 	"ctrl" => $TCA["tx_paeproject_projectelement"]["ctrl"],
@@ -295,7 +296,6 @@ $TCA["tx_paeproject_projectelement"] = array (
 );
 
 
-
 $TCA["tx_paeproject_exception"] = array (
 	"ctrl" => $TCA["tx_paeproject_exception"]["ctrl"],
 	"interface" => array (
@@ -380,4 +380,3 @@ $TCA["tx_paeproject_exception"] = array (
 		"1" => array("showitem" => "")
 	)
 );
-?>
